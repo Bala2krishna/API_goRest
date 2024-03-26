@@ -1,0 +1,53 @@
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 32ea2a6f0870e7a30114344f0685596e95480eb3ebf3b7edabaa2fed87445ffd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "com.github.javafaker.Name@27fde870",
+    "email": "trinidad.considine@hotmail.com",
+    "gender": "Male",
+    "status": "Active"
+}
+HTTP/1.1 201 Created
+Date: Tue, 26 Mar 2024 11:47:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 133
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"cb41f0c31bc4f881110af353b281ff1a"
+location: https://gorest.co.in/public/v2/users/6807001
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: f9d9c2e8-cb28-4ffb-a725-0ae2e94ec17e
+x-runtime: 0.079476
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tutkZLRB2sM2s6M8RgsF5N9JM2wSppZsTJhbCYLq7HHElUSgTZ6pJIZYewItUugk%2F6%2F83QgGZLLoumJwWYl3mxSg6fL%2FXGOfKiNBMyH2EHZw%2BpLeqmtq0xxalCl%2FO6U%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 86a6e78819e88801-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 6807001,
+    "name": "com.github.javafaker.Name@27fde870",
+    "email": "trinidad.considine@hotmail.com",
+    "gender": "male",
+    "status": "active"
+}
