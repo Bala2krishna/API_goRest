@@ -3,6 +3,7 @@ package resources;
 import com.github.javafaker.Faker;
 
 import pojo.AddUser;
+import pojo.UpdateUser;
 
 public class TestDataBuilder {
 
@@ -22,4 +23,18 @@ public class TestDataBuilder {
 		
 		return adduser;
 	}
+	
+	
+public UpdateUser updateUserPayload() {
+		
+		
+	UpdateUser updateUser =new UpdateUser();
+		faker=new Faker();
+		
+		updateUser.setName(faker.name().toString());
+		
+		
+		return updateUser;
+	}
 }
+

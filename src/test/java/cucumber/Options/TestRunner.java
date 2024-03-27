@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 //import org.junit.runner.RunWith;
 
@@ -16,37 +17,38 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 	features = "src/test/java/features",
 	glue= {"stepDefinations"}
+	,plugin ={"pretty","json:target/jsonReports/cucumber-report.json","html:target/cucumber-reports"}
 	//,plugin = { "pretty", "html:target/cucumber-reports" }
-	,plugin = {"json:target/cucumber.json"}
+	
 	//,plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
 	//monochrome = true
 	//,tags= "@tag1"
 	)
 public class TestRunner {
 	
+	/*
 	
-	
-	//private static ExtentReports extent;
-    //private static ExtentTest extentTest;
+	private static ExtentReports extent;
+    private static ExtentTest extentTest;
 
-   // @BeforeClass
-   // public static void setUp() {
-//        extent = new ExtentReports();
-//        // Configure extent reports (e.g., set report path, configuration, etc.)
-//
-//        // Initialize extent test
-//        extentTest = extent.createTest("API Test Report");
-//    }
-//
-//    @AfterClass
-//    public static void tearDown() {
-//        // Flush the extent reports
-//        extent.flush();
-//    }
-//
-//    public static void logStep(Status status, String message) {
-//        extentTest.log(status, message);
-//    }
+   @BeforeClass
+   public static void setUp() {
+       extent = new ExtentReports();
+      // Configure extent reports (e.g., set report path, configuration, etc.)
+
+      // Initialize extent test
+        extentTest = extent.createTest("API Test Report");
+    }
+
+    @AfterClass
+    public static void tearDown() {
+        // Flush the extent reports
+        extent.flush();
+    }
+
+    public static void logStep(Status status, String message) {
+        extentTest.log(status, message);
+    } */
 
 
 }

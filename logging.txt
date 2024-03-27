@@ -1,30 +1,20 @@
-Request method:	POST
-Request URI:	https://gorest.co.in/public/v2/users
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/6812398
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
+Path params:	userID=6812398
 Headers:		Authorization=Bearer 32ea2a6f0870e7a30114344f0685596e95480eb3ebf3b7edabaa2fed87445ffd
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "name": "com.github.javafaker.Name@27fde870",
-    "email": "trinidad.considine@hotmail.com",
-    "gender": "Male",
-    "status": "Active"
-}
-HTTP/1.1 201 Created
-Date: Tue, 26 Mar 2024 11:47:11 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 133
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 29 Mar 2024 08:48:16 GMT
 Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"cb41f0c31bc4f881110af353b281ff1a"
-location: https://gorest.co.in/public/v2/users/6807001
+Cache-Control: no-cache
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -32,22 +22,14 @@ x-download-options: noopen
 x-frame-options: SAMEORIGIN
 x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
-x-ratelimit-remaining: 89
-x-ratelimit-reset: 1
-x-request-id: f9d9c2e8-cb28-4ffb-a725-0ae2e94ec17e
-x-runtime: 0.079476
+x-ratelimit-remaining: 87
+x-ratelimit-reset: 3
+x-request-id: f31d8014-cfc2-4f01-bcc9-30f8460ff1f4
+x-runtime: 0.124775
 x-xss-protection: 0
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tutkZLRB2sM2s6M8RgsF5N9JM2wSppZsTJhbCYLq7HHElUSgTZ6pJIZYewItUugk%2F6%2F83QgGZLLoumJwWYl3mxSg6fL%2FXGOfKiNBMyH2EHZw%2BpLeqmtq0xxalCl%2FO6U%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lEc0MSDS74ID3tsu783jV4RW%2Fcc7f%2FXbB%2F0uTXJfweYsbiuYoB%2Bkj%2BDWu9RGb%2BPaOLDn%2FGzg8dmqyg6jW%2BpQxMuRT7d5Di5t6evq2zAd1SkTmlWxOh0hKHZkQYAykfQ%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 86a6e78819e88801-SIN
+CF-RAY: 86be9994fd778193-SIN
 alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 6807001,
-    "name": "com.github.javafaker.Name@27fde870",
-    "email": "trinidad.considine@hotmail.com",
-    "gender": "male",
-    "status": "active"
-}
