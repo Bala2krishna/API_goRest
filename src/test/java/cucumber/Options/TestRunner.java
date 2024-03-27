@@ -16,8 +16,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 	features = "src/test/java/features",
 	glue= {"stepDefinations"}
-	//,plugin = { "pretty", "html:target/cucumber-reports" }
-	,plugin = {"json:target/cucumber.json"}
+	//plugin ="json:target/jsonReports/cucumber-report.json"
+	,plugin = { "pretty", "html:target/cucumber-reports" }
+	//,plugin = {"json:target/cucumber.json"}
 	//,plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
 	//monochrome = true
 	//,tags= "@tag1"
