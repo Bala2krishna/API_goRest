@@ -1,10 +1,10 @@
 Request method:	DELETE
-Request URI:	https://gorest.co.in/public/v2/users/6812398
+Request URI:	https://gorest.co.in/public/v2/users/6817977
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	userID=6812398
+Path params:	userID=6817977
 Headers:		Authorization=Bearer 32ea2a6f0870e7a30114344f0685596e95480eb3ebf3b7edabaa2fed87445ffd
 				Accept=*/*
 				Content-Type=application/json
@@ -12,7 +12,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
-Date: Fri, 29 Mar 2024 08:48:16 GMT
+Date: Mon, 01 Apr 2024 09:44:36 GMT
 Connection: keep-alive
 Cache-Control: no-cache
 referrer-policy: strict-origin-when-cross-origin
@@ -22,14 +22,14 @@ x-download-options: noopen
 x-frame-options: SAMEORIGIN
 x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
-x-ratelimit-remaining: 87
-x-ratelimit-reset: 3
-x-request-id: f31d8014-cfc2-4f01-bcc9-30f8460ff1f4
-x-runtime: 0.124775
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 2c16d33c-bae0-4cb4-8a51-02020f6ff706
+x-runtime: 0.087654
 x-xss-protection: 0
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lEc0MSDS74ID3tsu783jV4RW%2Fcc7f%2FXbB%2F0uTXJfweYsbiuYoB%2Bkj%2BDWu9RGb%2BPaOLDn%2FGzg8dmqyg6jW%2BpQxMuRT7d5Di5t6evq2zAd1SkTmlWxOh0hKHZkQYAykfQ%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=pGN71RJ61I3qK45U1TSUEKsKg0WtXVLDgpNQmSkB2CNQOKWh967re8oBzeQgU7hrero%2BDh1gwBmp9xhsuMMC2ASv5KrlOOhpghaaP%2BRNy2CtOeja7o2e%2FG2esJHKITE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 86be9994fd778193-SIN
+CF-RAY: 86d7a4391b7740c0-SIN
 alt-svc: h3=":443"; ma=86400
