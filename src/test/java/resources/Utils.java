@@ -63,10 +63,13 @@ public class Utils {
 						reqSpec=new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl")).setContentType(ContentType.JSON)
 								.addHeader("Authorization",Utils.getGlobalValue("Authorization"))
 								//.setAuth(authcode)
+
 								
 								.addFilters(LoggingUtil.getLoggingFilters())
 								//.addFilter(RequestLoggingFilter.logRequestTo(log))       //replaced with logutils
 								//.addFilter(ResponseLoggingFilter.logResponseTo(log))
+
+								
 								//.addFilter(new AllureRestAssured()
 								//.withRequestTemplate("custom-http-request.ftl")
 								//.withResponseTemplate("custom-http-response.ftl"))

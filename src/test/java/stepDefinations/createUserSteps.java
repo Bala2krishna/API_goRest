@@ -31,7 +31,9 @@ public class createUserSteps extends Utils {
 	Response response;
 	
 	//String authcode="Bearer 32ea2a6f0870e7a30114344f0685596e95480eb3ebf3b7edabaa2fed87445ffd";
+
 	public static Integer userID=0;
+
 	
 	
 	 @Given("I have authorization key to get users in GoRest")
@@ -133,7 +135,9 @@ public class createUserSteps extends Utils {
 			response= req.when().post(resourseAPI.getResource())
 					.then().spec(resSpecification()).extract().response();
 			
+
 			System.out.println(userID);
+
 			userID=Integer.valueOf(getJsonPath(response,"id"));
 			
 			System.out.println(userID);
@@ -145,14 +149,18 @@ public class createUserSteps extends Utils {
 			
 			TestDataBuilder udata=new TestDataBuilder();
 			
+
 			response= req.body(udata.updateUserPayload()).pathParam("userID", userID).when().patch(resourseAPI.getResource())
+
 					.then().spec(resSpecification()).extract().response();
 		}
 			else if(verb.equalsIgnoreCase("GETUser")) {
 	
 	
 	
+
 	response= req.pathParam("userID", userID).when().get(resourseAPI.getResource())
+
 			.then().spec(resSpecification()).extract().response();
 
 

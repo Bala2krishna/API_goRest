@@ -6,6 +6,7 @@ Feature: Validate the GORest API's
   I want to use this template for my feature file
 
 
+
     Scenario: Verify able to Create a new user in GORest using create a new user API
     Given I have request payload and have authorization key to add user in GoRest
     When I call "add_User" API with "POST" http request
@@ -51,4 +52,5 @@ Feature: Validate the GORest API's
 
     #HTTP/1.1 204 No Content
     
+
      #And status as "ok" with "userID" in responses

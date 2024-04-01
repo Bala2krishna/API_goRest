@@ -18,9 +18,6 @@ import io.cucumber.junit.CucumberOptions;
 	features = "src/test/java/features",
 	glue= {"stepDefinations"}
 	,plugin ={"pretty","json:target/jsonReports/cucumber-report.json","html:target/cucumber-reports"}
-	//,plugin = { "pretty", "html:target/cucumber-reports" }
-	
-	//,plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
 	//monochrome = true
 	//,tags= "@tag1"
 	)
